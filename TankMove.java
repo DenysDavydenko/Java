@@ -3,7 +3,7 @@ package com.luxoft.jva001p1.basics.part2.xtasks;
 import javax.swing.*;
 import java.awt.*;
 
-public class T4_TanksMoveRandom extends JPanel
+public class TanksMove extends JPanel
 {
     int tankX = 0;
     int tankY = 0;
@@ -81,11 +81,11 @@ public class T4_TanksMoveRandom extends JPanel
 
     public static void main(String[] args) throws Exception
     {
-        T4_TanksMoveRandom bf = new T4_TanksMoveRandom();
+        TanksMove bf = new TanksMove();
         bf.runTheGame();
     }
 
-    public T4_TanksMoveRandom() throws Exception
+    public TanksMove() throws Exception
     {
         JFrame frame = new JFrame("MOVE TANK FORWARD");
         frame.setLocation(500, 150);
